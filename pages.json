@@ -1,0 +1,72 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "index"
+			}
+		},
+		{
+			"path": "pages/demo1/demo1",
+			"style": {
+				"navigationBarTitleText": "demo_01"
+			}
+		},
+		{
+			"path": "pages/demo2/demo2",
+			"style": {
+				"navigationBarTitleText": "demo_02"
+			}
+		},
+		{
+			"path": "pages/demo3/demo3",
+			"style": {
+				"navigationBarTitleText": "demo_03"
+			}
+		},
+		{
+			"path": "pages/demo4/demo4",
+			"style": {
+				"navigationBarTitleText": "demo_04"
+			}
+		},
+		{
+			"path": "pages/demo5/demo5",
+			"style": {
+				"navigationBarTitleText": "demo_05"
+			}
+		},
+		{
+			"path": "pages/demo6/demo6",
+			"style": {
+				"navigationBarTitleText": "demo_06"
+			}
+		},
+		{
+			"path": "pages/demo7/demo7",
+			"style": {
+				"navigationBarTitleText": "demo_07"
+			}
+		},
+		{
+			"path": "pages/demo8/demo8",
+			"style": {
+				"navigationBarTitleText": "demo_08"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+  "easycom": {
+    "custom": {
+      "^w-(.*)": "@/uniapp-form-components/components/w-$1/w-$1.vue",
+      "^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+      "^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue"
+    }
+  }
+}
